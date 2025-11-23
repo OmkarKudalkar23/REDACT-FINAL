@@ -90,7 +90,7 @@ const Hero = () => {
 
         {showContent && (
           <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75">
-            B<b>A</b>NKING
+            B<b>HARAT</b>PAY
           </h1>
         )}
 
@@ -107,7 +107,7 @@ const Hero = () => {
 
               <Button
                 id="watch-trailer"
-                title="Watch trailer"
+                title="Sign Up"
                 leftIcon={<TiLocationArrow />}
                 containerClass="bg-yellow-300 flex-center gap-1"
               />

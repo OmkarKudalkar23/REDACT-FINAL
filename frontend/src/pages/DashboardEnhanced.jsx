@@ -27,7 +27,7 @@ const DashboardEnhanced = () => {
     "/videos/feature-2.mp4",
     "/videos/feature-3.mp4",
     "/videos/feature-4.mp4",
-    "/videos/feature-5.mp4",
+    "/videos/hero-5.mp4",
   ];
 
   const recentTransactions = [
