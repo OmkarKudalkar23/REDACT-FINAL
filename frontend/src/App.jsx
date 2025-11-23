@@ -7,14 +7,15 @@ import Story from "./components/Story";
 import Contact from "./components/Contact";
 import FooterEnhanced from "./components/FooterEnhanced";
 import Login from "./pages/Login";
-import Admin from "./pages/Admin";
-import DashboardEnhanced from "./pages/DashboardEnhanced";
-import SendMoneyEnhanced from "./pages/SendMoneyEnhanced";
-import TransactionsEnhanced from "./pages/TransactionsEnhanced";
+import AdminEnhanced from "./pages/AdminEnhanced";
+import DashboardEnhancedV3 from "./pages/DashboardEnhancedV3";
+import SendMoneyOptimized from "./pages/SendMoneyOptimized";
+import TransactionsEnhancedV2 from "./pages/TransactionsEnhancedV2";
 import BillsPage from "./pages/BillsPage";
-import CardsPage from "./pages/CardsPage";
-import InvestmentsPage from "./pages/InvestmentsPage";
+import CardsPageEnhanced from "./pages/CardsPageEnhanced";
+import InvestmentsPageEnhanced from "./pages/InvestmentsPageEnhanced";
 import SettingsPage from "./pages/SettingsPage";
+import Search from "./pages/Search";
 
 function App() {
   return (
@@ -35,14 +36,15 @@ function App() {
           }
         />
         <Route path="/login" element={<Login />} />
-        <Route path="/admin" element={<Admin />} />
-        <Route path="/dashboard" element={<DashboardEnhanced />} />
-        <Route path="/send-money" element={<SendMoneyEnhanced />} />
-        <Route path="/transactions" element={<TransactionsEnhanced />} />
+        <Route path="/admin" element={<AdminEnhanced />} />
+        <Route path="/dashboard" element={<DashboardEnhancedV3 />} />
+        <Route path="/send-money" element={<SendMoneyOptimized />} />
+        <Route path="/transactions" element={<TransactionsEnhancedV2 />} />
         <Route path="/bills" element={<BillsPage />} />
-        <Route path="/cards" element={<CardsPage />} />
-        <Route path="/investments" element={<InvestmentsPage />} />
+        <Route path="/cards" element={<CardsPageEnhanced />} />
+        <Route path="/investments" element={<InvestmentsPageEnhanced />} />
         <Route path="/settings" element={<SettingsPage />} />
+        <Route path="/search" element={<Search />} />
       </Routes>
     </Router>
   );

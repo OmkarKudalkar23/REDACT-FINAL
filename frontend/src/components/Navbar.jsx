@@ -161,13 +161,13 @@ const NavBar = () => {
             {/* Login and Signup Buttons */}
             <div className="hidden md:flex items-center gap-3 ml-10">
               <Link
-                to="/"
+                to="/login"
                 className="px-4 py-2 text-blue-50 hover:text-blue-75 transition-colors duration-300"
               >
                 Login
               </Link>
               <Link
-                to="/"
+                to="/login"
                 className="px-4 py-2 bg-blue-75 text-white rounded-lg hover:bg-blue-100 transition-colors duration-300"
               >
                 Sign Up
